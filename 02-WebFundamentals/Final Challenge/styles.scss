@@ -15,10 +15,10 @@ $font-body: 'Nunito', sans-serif;
   
     width:auto;
     height:auto;
-    margin: 0;
-    padding: 0;
+    margin: 60;
+    padding: 50;
     font-family: $font-body;
-    color:$primary-color;
+    
     
 
 }
@@ -35,7 +35,8 @@ $font-body: 'Nunito', sans-serif;
     .logo {
         
         font-family: $font-logo;
-        font-size:50px;
+        color:$primary-color;
+        font-size:60px;
         font-weight:bolder;
         text-decoration: none;
     }
@@ -44,6 +45,7 @@ $font-body: 'Nunito', sans-serif;
         
         padding: 15px 45px;
         background-color:white;
+        color:$primary-color;
         border-style:solid;
         border-radius:10px;
         font-family: $font-logo;
@@ -68,11 +70,76 @@ $font-body: 'Nunito', sans-serif;
     display:grid;
     place-items: center;
     
+    
     .image1 {
-        width:40%;
+        width:60%;
         height:auto;
+        padding:50px;
     }
 
+}
+
+.marketing {
+  
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+.h2 {
+    
+    text-align:center;
+    font-size:45px;
+    color:$primary-color;
+    
+}
+.h3{
+    text-align: center;
+    font-size: 40px;
+    color:$font-secondary
+}
+.h4{
+    text-align:center;
+    font-size:25px;
+    font-weight: 100;
+    color:$primary-color;
+}
+}
+
+a, a:link, a:visited {
+    color:$background-color-main;
+    text-decoration:none;
+    backgorund-color:$primary-color
+}
+
+.div1 {
+    display:grid;
+    place-items: center;
+
+    
+.button1 {
+    background-color: $primary-color;
+    border-radius: 10px;
+    padding:20px;
+    width:40vh;
+    border:none;
+    
+   
+   
+    a, a:link, a:visited {
+        font-size:30px;
+        font-weight: bolder;
+        color:$background-color-main;
+        text-decoration: none;
+        
+        
+        
+    }
+ 
+
+    
+   
+
+}
 }
 
 .footer {

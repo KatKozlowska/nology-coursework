@@ -3,10 +3,9 @@
 * {
   width: auto;
   height: auto;
-  margin: 0;
-  padding: 0;
+  margin: 60;
+  padding: 50;
   font-family: "Nunito", sans-serif;
-  color: rgb(81, 68, 139);
 }
 
 .navigation {
@@ -18,13 +17,15 @@
 }
 .navigation .logo {
   font-family: "Sue Ellen Francisco", cursive;
-  font-size: 50px;
+  color: rgb(81, 68, 139);
+  font-size: 60px;
   font-weight: bolder;
   text-decoration: none;
 }
 .navigation .button {
   padding: 15px 45px;
   background-color: white;
+  color: rgb(81, 68, 139);
   border-style: solid;
   border-radius: 10px;
   font-family: "Sue Ellen Francisco", cursive;
@@ -45,8 +46,55 @@
   place-items: center;
 }
 .div .image1 {
-  width: 40%;
+  width: 60%;
   height: auto;
+  padding: 50px;
+}
+
+.marketing {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.marketing .h2 {
+  text-align: center;
+  font-size: 45px;
+  color: rgb(81, 68, 139);
+}
+.marketing .h3 {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(5, 189, 250);
+}
+.marketing .h4 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 100;
+  color: rgb(81, 68, 139);
+}
+
+a, a:link, a:visited {
+  color: white;
+  text-decoration: none;
+  backgorund-color: rgb(81, 68, 139);
+}
+
+.div1 {
+  display: grid;
+  place-items: center;
+}
+.div1 .button1 {
+  background-color: rgb(81, 68, 139);
+  border-radius: 10px;
+  padding: 20px;
+  width: 40vh;
+  border: none;
+}
+.div1 .button1 a, .div1 .button1 a:link, .div1 .button1 a:visited {
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+  text-decoration: none;
 }
 
 .footer {
