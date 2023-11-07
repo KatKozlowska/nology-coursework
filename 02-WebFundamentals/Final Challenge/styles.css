@@ -1,11 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans+JP&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap");
 * {
   width: auto;
   height: auto;
   margin: 0;
   padding: 0;
-  font-family: "Roboto", "sans-serif";
+  font-family: "Nunito", sans-serif;
+  color: rgb(81, 68, 139);
 }
 
 .navigation {
@@ -13,22 +14,20 @@
   display: flex;
   justify-content: space-between;
   padding: 40px 40px;
-  color: rgb(109, 91, 188);
+  align-items: center;
 }
 .navigation .logo {
-  padding: 5px;
   font-family: "Sue Ellen Francisco", cursive;
   font-size: 50px;
   font-weight: bolder;
   text-decoration: none;
 }
 .navigation .button {
-  display: block;
-  padding: 20px;
+  padding: 15px 45px;
   background-color: white;
   border-style: solid;
   border-radius: 10px;
-  font-family: "Roboto", "sans-serif";
+  font-family: "Sue Ellen Francisco", cursive;
   font-size: 30px;
   font-weight: bolder;
   text-decoration: none;
@@ -36,9 +35,18 @@
 
 .heading {
   padding: 20px;
-  font-size: 30px;
+  font-size: 45px;
   text-align: center;
   color: rgb(5, 189, 250);
+}
+
+.div {
+  display: grid;
+  place-items: center;
+}
+.div .image1 {
+  width: 40%;
+  height: auto;
 }
 
 .footer {
