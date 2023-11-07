@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans+JP&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap");
+* {
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "sans-serif";
+}
+
+.navigation {
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 40px;
+  color: rgb(109, 91, 188);
+}
+.navigation .logo {
+  padding: 5px;
+  font-family: "Sue Ellen Francisco", cursive;
+  font-size: 50px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.navigation .button {
+  display: block;
+  padding: 20px;
+  background-color: white;
+  border-style: solid;
+  border-radius: 10px;
+  font-family: "Roboto", "sans-serif";
+  font-size: 30px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.heading {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(5, 189, 250);
+}
+
+.footer {
+  height: 100px;
+  padding: 40px;
+  display: flex;
+  -ms-flex-align: baseline;
+  background-color: wheat;
+}/*# sourceMappingURL=styles.css.map */

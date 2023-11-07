@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans+JP&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+
+
+$background-color-main:white;
+$primary-colour: rgb(109, 91, 188);
+$secondary-colour: wheat;
+$font-secondary:rgb(5, 189, 250);
+$font-logo: 'Sue Ellen Francisco', cursive;
+$font-body: "Roboto", "sans-serif";
+
+
+
+* {
+  
+    width:auto;
+    height:auto;
+    margin: 0;
+    padding: 0;
+    font-family: $font-body;
+    
+
+}
+
+.navigation {
+    height: 75px;
+    display:flex;
+    justify-content: space-between;
+    padding: 40px 40px;
+    color:$primary-colour;
+ 
+   
+    .logo {
+        padding:5px;
+        font-family: $font-logo;
+        font-size:50px;
+        font-weight:bolder;
+        text-decoration: none;
+    
+
+    }
+
+    .button{
+        display:block;
+        padding: 20px;
+        background-color:white;
+        border-style:solid;
+        border-radius:10px;
+        font-family: $font-body;
+        font-size:30px;
+        font-weight:bolder;
+        text-decoration: none;
+      
+    }
+
+}
+
+.heading {
+    padding:20px;
+    font-size:30px;
+    text-align: center;
+    color:$font-secondary;
+
+}
+
+.footer {
+
+height:100px;
+padding:40px;
+display:flex;
+-ms-flex-align: baseline;
+background-color: $secondary-colour;
+
+.button {
+
+   
+
+}
+
+}
+
