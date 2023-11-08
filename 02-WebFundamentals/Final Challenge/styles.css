@@ -22,16 +22,21 @@
   font-weight: bolder;
   text-decoration: none;
 }
-.navigation .button {
-  padding: 15px 45px;
-  background-color: white;
-  color: rgb(81, 68, 139);
-  border-style: solid;
+.navigation .login {
   border-radius: 10px;
   font-family: "Sue Ellen Francisco", cursive;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bolder;
+  margin: 50px;
   text-decoration: none;
+  color: rgb(81, 68, 139);
+  border: solid;
+  padding: 0 45px;
+}
+.navigation .login a, .navigation .login a:link, .navigation .login a:visited {
+  font-size: 40px;
+  font-weight: bolder;
+  color: white;
 }
 
 .heading {
@@ -83,7 +88,7 @@
   padding: 20px;
   width: 40vh;
   border: none;
-  margin: 50px;
+  margin: 75px;
 }
 .div1 .button1 a, .div1 .button1 a:link, .div1 .button1 a:visited {
   font-size: 30px;
@@ -101,7 +106,7 @@
 
 .budget {
   margin: 60px;
-  font-size: 25px;
+  font-size: 30px;
   color: rgb(81, 68, 139);
   display: flex;
   justify-content: space-between;
@@ -112,12 +117,12 @@
 }
 .budget .penguin-right {
   max-width: 30%;
-  max-height: 30%;
+  max-height: 25%;
 }
 
 .challenges {
   margin: 60px;
-  font-size: 25px;
+  font-size: 30px;
   color: rgb(81, 68, 139);
   display: flex;
   justify-content: space-between;
@@ -134,7 +139,7 @@
 
 .reading {
   margin: 60px;
-  font-size: 25px;
+  font-size: 30px;
   color: rgb(81, 68, 139);
   display: flex;
   justify-content: space-between;
@@ -145,13 +150,13 @@
 }
 .reading .penguin-right {
   max-width: 32%;
-  max-height: 225px;
+  max-height: 250px;
   margin-top: 50px;
 }
 
 .more {
   margin: 60px;
-  font-size: 25px;
+  font-size: 30px;
   color: rgb(81, 68, 139);
   display: flex;
   justify-content: space-between;
@@ -163,13 +168,23 @@
 }
 .more .penguin-left {
   max-width: 35%;
-  max-height: 30%;
+  max-height: 25%;
+  margin-top: 15px;
 }
 
 .footer {
-  height: 100px;
+  height: auto;
   padding: 40px;
   display: flex;
   -ms-flex-align: baseline;
+  flex-direction: column;
   background-color: wheat;
+}
+.footer .button {
+  font-size: 45px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
+  color: rgb(81, 68, 139);
 }/*# sourceMappingURL=styles.css.map */

@@ -28,7 +28,6 @@ $font-body: 'Nunito', sans-serif;
     display:flex;
     justify-content: space-between;
     padding: 40px 40px;
-    
     align-items: center;
  
    
@@ -38,24 +37,32 @@ $font-body: 'Nunito', sans-serif;
         color:$primary-color;
         font-size:60px;
         font-weight:bolder;
-        text-decoration: none;
+        text-decoration: none; 
     }
 
-    .button{
+    .login{
         
-        padding: 15px 45px;
-        background-color:white;
-        color:$primary-color;
-        border-style:solid;
-        border-radius:10px;
+        border-radius: 10px;
         font-family: $font-logo;
-        font-size:30px;
+        font-size: 40px;
         font-weight:bolder;
+        margin: 50px;
         text-decoration: none;
+        color: $primary-color;
+        border:solid;
+        padding:0 45px;
+
+        a, a:link, a:visited {
+            font-size:40px;
+            font-weight: bolder;
+            color:$background-color-main;
+        
+          
+            }
+        }
       
     }
 
-}
 
 .heading {
     padding:20px;
@@ -116,7 +123,7 @@ $font-body: 'Nunito', sans-serif;
     padding:20px;
     width:40vh;
     border:none;
-    margin:50px;
+    margin: 75px;
     
     a, a:link, a:visited {
         font-size:30px;
@@ -136,7 +143,7 @@ $font-body: 'Nunito', sans-serif;
 
 .budget {
     margin: 60px;
-    font-size: 25px;
+    font-size: 30px;
     color: $primary-color;
     display:flex;
     justify-content: space-between;
@@ -147,7 +154,7 @@ $font-body: 'Nunito', sans-serif;
     }
     .penguin-right {
          max-width:30%;
-         max-height:30%
+         max-height:25%
     
     }
 }
@@ -155,7 +162,7 @@ $font-body: 'Nunito', sans-serif;
 .challenges {
 
  margin: 60px;
-    font-size: 25px;
+    font-size: 30px;
     color: $primary-color;
     display:flex;
     justify-content: space-between;
@@ -174,7 +181,7 @@ $font-body: 'Nunito', sans-serif;
 
 .reading {
         margin: 60px;
-        font-size: 25px;
+        font-size: 30px;
         color: $primary-color;
         display:flex;
         justify-content: space-between;
@@ -186,14 +193,14 @@ $font-body: 'Nunito', sans-serif;
 
    .penguin-right {
         max-width:32%;
-        max-height:225px;
+        max-height:250px;
         margin-top: 50px;
    }
 }
 
 .more {
     margin: 60px;
-     font-size: 25px;
+     font-size: 30px;
      color: $primary-color;
      display:flex;
     justify-content: space-between;
@@ -206,18 +213,30 @@ $font-body: 'Nunito', sans-serif;
     }
     .penguin-left {
         max-width:35%;
-        max-height:30%;
+        max-height:25%;
+        margin-top:15px
 
     }
 
-    
+
 }
 .footer {
 
-height:100px;
+height:auto;
 padding:40px;
 display:flex;
 -ms-flex-align: baseline;
+flex-direction: column;
 background-color: $secondary-colour;
+
+.button {
+    font-size: 45px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    color: $primary-color;
+    
+}
 }
 
