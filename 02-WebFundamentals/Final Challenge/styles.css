@@ -73,12 +73,6 @@
   color: rgb(81, 68, 139);
 }
 
-a, a:link, a:visited {
-  color: white;
-  text-decoration: none;
-  backgorund-color: rgb(81, 68, 139);
-}
-
 .div1 {
   display: grid;
   place-items: center;
@@ -89,12 +83,36 @@ a, a:link, a:visited {
   padding: 20px;
   width: 40vh;
   border: none;
+  margin: 50px;
 }
 .div1 .button1 a, .div1 .button1 a:link, .div1 .button1 a:visited {
   font-size: 30px;
   font-weight: bolder;
   color: white;
   text-decoration: none;
+}
+
+.h5 {
+  margin: 50px;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(81, 68, 139);
+}
+
+.budget {
+  margin: 60px;
+  font-size: 25px;
+  color: rgb(81, 68, 139);
+  display: flex;
+  justify-content: space-between;
+}
+.budget .writing-left {
+  padding: 100px 40px;
+  width: 50%;
+}
+.budget .penguin-right {
+  max-width: 30%;
+  max-height: 30%;
 }
 
 .footer {
