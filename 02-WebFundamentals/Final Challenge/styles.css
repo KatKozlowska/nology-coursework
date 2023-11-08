@@ -3,26 +3,36 @@
 * {
   width: auto;
   height: auto;
-  margin: 60;
-  padding: 50;
+  margin: 0;
+  padding: 0;
   font-family: "Nunito", sans-serif;
 }
 
 .navigation {
-  height: 75px;
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+}
+.navigation img {
+  height: 120px;
+  width: auto;
+}
+.navigation .navigation-links {
+  display: flex;
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  padding: 40px 40px;
-  align-items: center;
+  width: 100%;
+  margin: 0 20px;
 }
-.navigation .logo {
+.navigation .navigation-links .logo {
   font-family: "Sue Ellen Francisco", cursive;
   color: rgb(81, 68, 139);
   font-size: 60px;
   font-weight: bolder;
   text-decoration: none;
 }
-.navigation .login {
+.navigation .navigation-links .login {
   border-radius: 10px;
   font-family: "Sue Ellen Francisco", cursive;
   font-size: 40px;
@@ -33,7 +43,7 @@
   border: solid;
   padding: 0 45px;
 }
-.navigation .login a, .navigation .login a:link, .navigation .login a:visited {
+.navigation .navigation-links .login a, .navigation .navigation-links .login a:link, .navigation .navigation-links .login a:visited {
   font-size: 40px;
   font-weight: bolder;
   color: white;
