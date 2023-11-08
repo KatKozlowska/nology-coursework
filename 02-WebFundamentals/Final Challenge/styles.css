@@ -107,11 +107,62 @@
   justify-content: space-between;
 }
 .budget .writing-left {
-  padding: 100px 40px;
+  padding: 80px 40px;
   width: 50%;
 }
 .budget .penguin-right {
   max-width: 30%;
+  max-height: 30%;
+}
+
+.challenges {
+  margin: 60px;
+  font-size: 25px;
+  color: rgb(81, 68, 139);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.challenges .writing-right {
+  padding: 80px 40px;
+  width: 50%;
+}
+.challenges .penguin-left {
+  max-width: 40%;
+  max-height: 40%;
+}
+
+.reading {
+  margin: 60px;
+  font-size: 25px;
+  color: rgb(81, 68, 139);
+  display: flex;
+  justify-content: space-between;
+}
+.reading .writing-left {
+  padding: 80px 40px;
+  width: 50%;
+}
+.reading .penguin-right {
+  max-width: 32%;
+  max-height: 225px;
+  margin-top: 50px;
+}
+
+.more {
+  margin: 60px;
+  font-size: 25px;
+  color: rgb(81, 68, 139);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.more .writing-right {
+  padding: 80px 40px;
+  width: 50%;
+}
+.more .penguin-left {
+  max-width: 35%;
   max-height: 30%;
 }
 

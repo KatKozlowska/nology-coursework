@@ -142,19 +142,76 @@ $font-body: 'Nunito', sans-serif;
     justify-content: space-between;
    
     .writing-left {
-        padding: 100px 40px;
+        padding: 80px 40px;
         width:50%;
-    
     }
     .penguin-right {
-    
          max-width:30%;
          max-height:30%
-       
     
     }
 }
 
+.challenges {
+
+ margin: 60px;
+    font-size: 25px;
+    color: $primary-color;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
+    .writing-right {
+        padding: 80px 40px;
+        width:50%;
+
+    }
+    .penguin-left{
+        max-width:40%;
+        max-height:40%
+    }
+}
+
+.reading {
+        margin: 60px;
+        font-size: 25px;
+        color: $primary-color;
+        display:flex;
+        justify-content: space-between;
+   
+    .writing-left {
+        padding: 80px 40px;
+        width:50%;
+   }
+
+   .penguin-right {
+        max-width:32%;
+        max-height:225px;
+        margin-top: 50px;
+   }
+}
+
+.more {
+    margin: 60px;
+     font-size: 25px;
+     color: $primary-color;
+     display:flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
+    .writing-right {
+        padding: 80px 40px;
+        width:50%;
+
+    }
+    .penguin-left {
+        max-width:35%;
+        max-height:30%;
+
+    }
+
+    
+}
 .footer {
 
 height:100px;
