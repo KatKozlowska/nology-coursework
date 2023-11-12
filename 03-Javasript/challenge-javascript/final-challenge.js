@@ -1,6 +1,18 @@
 
 // 1. Function which takes an number and returns true if its positive and false if its negative.
 
+const isNumberPositive = (number) => {
+    if (number>0) {
+    console.log("true");
+    } else (number<0) 
+    console.log("false");
+}
+
+isNumberPositive(-1);
+isNumberPositive(10);
+
+// why is this returning three resutlts instead of two???
+
 // 2. Function which takes a number of days and converts it to age. 
 
 
@@ -28,6 +40,21 @@ getLargestNumber(2, 1 ,4);
 getLargestNumber(6, 2 ,3);
 
 // 4. Function that takes an array of names and returns the last name from the array of names. 
+
+
+//const getLastName= ([name1,name2,name3]);
+//const names = [
+  //  name[0]= name1;
+  //  name[1]= name2;
+   // name[2]= name3]
+
+//for (let index= 0; index <3; index ++) {
+ //   console.log(index[2])
+//}
+
+
+//getLastname(["Charlie", "Rob", "Andy"]);
+//getLastname(["Ash", "Stu",]);
 
 // 5. function which takes an array of numbers and returns true if all of the numbers are positive. It should return false if there are 
 // one or more negative numbers in the array. 
